@@ -1,8 +1,8 @@
 # Site settings
-title: Forty
+title: Dimension
 email: youremailaddress@gmail.com
 description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
-baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
+baseurl: "/dimension-jekyll-theme" # the subpath of your site, e.g. /blog
 url: "https://andrewbanchich.gitlab.io" # the base hostname & protocol for your site
 author:
 street_address: 1234 Somewhere Road
