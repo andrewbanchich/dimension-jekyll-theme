@@ -2,10 +2,6 @@
 title: elements
 ---
 
-<!-- Elements -->
-<article id="elements">
-	<h2 class="major">Elements</h2>
-
 	<section>
 		<h3 class="major">Text</h3>
 		<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
@@ -241,5 +237,3 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			</ul>
 		</form>
 	</section>
-
-</article>
