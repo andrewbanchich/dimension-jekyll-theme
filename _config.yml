@@ -1,7 +1,7 @@
 # Site settings
 title: Dimension
 email: youremailaddress@gmail.com
-description: A responsive site template designed by HTML5 Up<br /> and released under the Creative Commons.
+description: A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<br />for free under the <a href="https://html5up.net/license">Creative Commons</a> license.
 baseurl: "/dimension-jekyll-theme" # the subpath of your site, e.g. /blog
 url: "https://andrewbanchich.gitlab.io" # the base hostname & protocol for your site
 author:
@@ -11,6 +11,8 @@ state: TN
 zip_code: 55555
 country: United States of America
 phone: (716) 555-5555
+
+icon: fa-diamond # Font Awesome class for your site's icon
 
 # Social settings
 500px_url:
