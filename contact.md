@@ -1,2 +1,4 @@
 ---
+layout: section
+title: Contact
 ---
