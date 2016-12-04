@@ -1,8 +1,8 @@
-# Identity - Jekyll Theme
+# Dimension - Jekyll Theme
 
-A Jekyll version of the "Identity" theme by [HTML5 UP](https://html5up.net/).
+A Jekyll version of the "Dimension" theme by [HTML5 UP](https://html5up.net/).
 
-![Identity Theme](assets/images/identity.jpg "Identity Theme")
+![Dimension Theme](assets/images/screenshot.jpg "Dimension Theme")
 
 # How to Use
 
@@ -21,9 +21,8 @@ and [creating pages](https://jekyllrb.com/docs/pages/).
 
 You can use the following custom parameters in `_config.yml`.
 
-## Identity
-- `your-name` sets your name.
-- `your-title` sets your title.
+## Site Icon
+- `icon` sets the class for your site's [Font Awesome](http://fontawesome.io/icons/) icon.
 
 ## Social settings
 - `500px_url`
