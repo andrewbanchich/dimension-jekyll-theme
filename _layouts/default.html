@@ -12,7 +12,12 @@
 
 {% include header.html %}
 
-{{ content }}
+{% for page in site.pages  %}
+{% unless page.layout == 'default' %}
+
+{% include section.html %}
+
+{% endunless %}{% endfor %}
 
 {% include footer.html %}
 
