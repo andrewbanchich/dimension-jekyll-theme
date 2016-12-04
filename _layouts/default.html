@@ -18,7 +18,7 @@
 <!-- {{ page.title }} -->
 <article id="{{ page.title }}">
 	<h2 class="major">{{ page.title }}</h2>
-	<span class="image main"><img src="assets/images/{{ page.image }}" alt="" /></span>
+	{% if page.image %}<span class="image main"><img src="assets/images/{{ page.image }}" alt="" /></span>{% endif %}
 <p>
 {{ page.content }}
 </p>
