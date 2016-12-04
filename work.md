@@ -1,4 +1,4 @@
 ---
 layout: section
-title: Work
+title: work
 ---

@@ -1,4 +1,4 @@
 ---
 layout: section
-title: About
+title: about
 ---

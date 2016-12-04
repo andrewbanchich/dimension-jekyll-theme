@@ -1,4 +1,4 @@
 ---
 layout: section
-title: Contact
+title: contact
 ---
