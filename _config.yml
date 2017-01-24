@@ -15,7 +15,6 @@ phone: (716) 555-5555
 icon: fa-diamond # Font Awesome class for your site's icon
 
 # Social settings
-500px_url:
 facebook_url:
 github_url:
 gitlab_url: https://gitlab.com/u/andrewbanchich

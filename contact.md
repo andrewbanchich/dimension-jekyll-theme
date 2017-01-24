@@ -1,5 +1,5 @@
 ---
-layout: section
+layout: default
 title: contact
 ---
 
@@ -22,7 +22,7 @@ title: contact
 	</ul>
 </form>
 <ul class="icons">
-	
+
 	{% if site.twitter_url %}
 				<li><a href="{{ site.twitter_url }}" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
 				{% endif %}
@@ -38,9 +38,6 @@ title: contact
 				{% if site.pinterest_url %}
 				<li><a href="{{ site.pinterest_url }}" class="icon fa-pinterest" target="_blank"><span class="label">Pinterest</span></a></li>
 				{% endif %}
-				{% if site.500px_url %}
-				<li><a href="{{ site.500px_url }}" class="icon fa-500px" target="_blank"><span class="label">500px</span></a></li>
-				{% endif %}
 				{% if site.gitlab_url %}
 				<li><a href="{{ site.gitlab_url }}" class="icon fa-gitlab" target="_blank"><span class="label">GitLab</span></a></li>
 				{% endif %}
@@ -53,5 +50,5 @@ title: contact
 				{% if site.linkedin_url %}
 				<li><a href="{{ site.linkedin_url }}" class="icon fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
 				{% endif %}
-				
+
 </ul>
