@@ -15,9 +15,9 @@
 			<nav>
 				<ul>
 					{% for page in site.pages  %}
-					{% unless page.layout == 'default' %}
+					{% if page.title %}
 					<li><a href="#{{ page.title }}">{{ page.title }}</a></li>
-					{% endunless %}{% endfor %}
+					{% endif %}{% endfor %}
 				</ul>
 			</nav>
 		</header>
