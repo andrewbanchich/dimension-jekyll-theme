@@ -13,6 +13,7 @@
 {% include header.html %}
 
 {% for page in site.pages  %}
+{% unless page.path == "index.md" %}
 
 <!-- {{ page.title }} -->
 <article id="{{ page.title }}">
@@ -23,6 +24,7 @@
 </p>
 </article>
 
+{% unless page.path == "index.md" %}
 {% endfor %}
 
 {% include footer.html %}
