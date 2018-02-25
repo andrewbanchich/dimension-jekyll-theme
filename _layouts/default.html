@@ -13,7 +13,6 @@
 {% include header.html %}
 
 {% for page in site.pages  %}
-{% unless page.layout == 'default' %}
 
 <!-- {{ page.title }} -->
 <article id="{{ page.title }}">
@@ -24,7 +23,7 @@
 </p>
 </article>
 
-{% endunless %}{% endfor %}
+{% endfor %}
 
 {% include footer.html %}
 
