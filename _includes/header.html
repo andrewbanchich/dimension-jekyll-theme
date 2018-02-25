@@ -17,6 +17,7 @@
 					{% for page in site.pages  %}
 					{% unless page.path == "index.md" %}
 					<li><a href="#{{ page.title }}">{{ page.title }}</a></li>
+					<!-- path is {{ page.path }} -->
 					{% endunless %}
 					{% endfor %}
 				</ul>
