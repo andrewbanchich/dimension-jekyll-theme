@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -e
+bundle exec jekyll build -d public --verbose
+gem build dimension_jekyll_theme.gemspec
+bundle exec htmlproofer ./_site --http-status-ignore "999" --url-swap "https?\:\/\/(127\.0\.0\.1\:4000|localhost\:4000|andrewbanchich\.github.io/dimension-jekyll-theme/):" --only-4xx --enforce-https --external_only --check-html --check-favicon
