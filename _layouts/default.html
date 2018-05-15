@@ -13,7 +13,7 @@
 {% include header.html %}
 
 {% for page in site.pages  %}
-{% unless page.path == ("index.md" || "assets/css/style.scss") %}
+{% unless page.path == "index.md" or page.path == "assets/css/style.scss" %}
 
 <!-- {{ page.title }} -->
 <article id="{{ page.title }}">
