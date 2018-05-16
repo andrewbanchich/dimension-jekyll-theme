@@ -16,13 +16,8 @@ title: elements
 	<hr />
 	<h4>Blockquote</h4>
 	<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
-	
-</section>
-
-#### Preformatted
-
-```
-i = 0;
+	<h4>Preformatted</h4>
+	<pre><code>i = 0;
 
 while (!deck.isInOrder()) {
 print 'Iteration ' + i;
@@ -30,8 +25,8 @@ deck.shuffle();
 i++;
 }
 
-print 'It took ' + i + ' iterations to sort the deck.';
-```
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+</section>
 
 <section>
 	<h3 class="major">Lists</h3>
