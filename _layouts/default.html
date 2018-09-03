@@ -13,7 +13,7 @@
 {% include header.html %}
 
 {% for page in site.pages  %}
-{% unless page.path == "index.md" or page.path == "assets/css/style.scss" %}
+{% if page.title %}
 
 <!-- {{ page.title }} -->
 <article id="{{ page.title }}">
@@ -24,7 +24,7 @@
 </p>
 </article>
 
-{% endunless %}
+{% endif %}
 {% endfor %}
 
 {% include footer.html %}
