@@ -47,12 +47,16 @@
 		}
 
 		&.fit {
-			display: block;
-			margin: 0 0 (_size(element-margin) * 0.5) 0;
 			width: 100%;
 		}
 
-		&.special {
+		&.small {
+			font-size: 0.6rem;
+			height: (_size(element-height) * 0.75);
+			line-height: (_size(element-height) * 0.75);
+		}
+
+		&.primary {
 			background-color: _palette(fg-bold);
 			color: _palette(bg) !important;
 			font-weight: _font(weight-bold);
