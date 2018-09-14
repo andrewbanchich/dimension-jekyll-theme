@@ -5,9 +5,10 @@
 @import 'libs/vars';
 @import 'libs/functions';
 @import 'libs/mixins';
-@import 'libs/skel';
+@import 'libs/vendor';
+@import 'libs/breakpoints';
 @import 'font-awesome.min.css';
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600');
+// @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600');
 
 /*
 	Dimension by HTML5 UP
@@ -15,22 +16,20 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-	@include skel-breakpoints((
-		xlarge:		'(max-width: 1680px)',
-		large:		'(max-width: 1280px)',
-		medium:		'(max-width: 980px)',
-		small:		'(max-width: 736px)',
-		xsmall:		'(max-width: 480px)',
-		xxsmall:	'(max-width: 360px)'
-	));
+// Breakpoints.
 
-	@include skel-layout((
-		reset: 'full',
-		boxModel: 'border'
+	@include breakpoints((
+		xlarge:   ( 1281px,  1680px ),
+		large:    ( 981px,   1280px ),
+		medium:   ( 737px,   980px  ),
+		small:    ( 481px,   736px  ),
+		xsmall:   ( 361px,   480px  ),
+		xxsmall:  ( null,    360px  )
 	));
 
 // Base.
 
+	@import 'base/reset';
 	@import 'base/page';
 	@import 'base/typography';
 
@@ -41,6 +40,8 @@
 	@import 'components/icon';
 	@import 'components/image';
 	@import 'components/list';
+	@import 'components/actions';
+	@import 'components/icons';
 	@import 'components/table';
 	@import 'components/button';
 

@@ -64,11 +64,11 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 
 	<h4>Actions</h4>
 	<ul class="actions">
-		<li><a href="#" class="button special">Default</a></li>
+		<li><a href="#" class="button primary">Default</a></li>
 		<li><a href="#" class="button">Default</a></li>
 	</ul>
 	<ul class="actions vertical">
-		<li><a href="#" class="button special">Default</a></li>
+		<li><a href="#" class="button primary">Default</a></li>
 		<li><a href="#" class="button">Default</a></li>
 	</ul>
 </section>
@@ -171,7 +171,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 <section>
 	<h3 class="major">Buttons</h3>
 	<ul class="actions">
-		<li><a href="#" class="button special">Special</a></li>
+		<li><a href="#" class="button primary">Primary</a></li>
 		<li><a href="#" class="button">Default</a></li>
 	</ul>
 	<ul class="actions">
@@ -179,11 +179,11 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 		<li><a href="#" class="button small">Small</a></li>
 	</ul>
 	<ul class="actions">
-		<li><a href="#" class="button special icon fa-download">Icon</a></li>
+		<li><a href="#" class="button primary icon fa-download">Icon</a></li>
 		<li><a href="#" class="button icon fa-download">Icon</a></li>
 	</ul>
 	<ul class="actions">
-		<li><span class="button special disabled">Disabled</span></li>
+		<li><span class="button primary disabled">Disabled</span></li>
 		<li><span class="button disabled">Disabled</span></li>
 	</ul>
 </section>
@@ -191,46 +191,48 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 <section>
 	<h3 class="major">Form</h3>
 	<form method="post" action="#">
-		<div class="field half first">
-			<label for="demo-name">Name</label>
-			<input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
-		</div>
-		<div class="field half">
-			<label for="demo-email">Email</label>
-			<input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
-		</div>
-		<div class="field">
-			<label for="demo-category">Category</label>
-			<div class="select-wrapper">
-				<select name="demo-category" id="demo-category">
-					<option value="">-</option>
-					<option value="1">Manufacturing</option>
-					<option value="1">Shipping</option>
-					<option value="1">Administration</option>
-					<option value="1">Human Resources</option>
-				</select>
-			</div>
-		</div>
-		<div class="field half first">
-			<input type="radio" id="demo-priority-low" name="demo-priority" checked>
-			<label for="demo-priority-low">Low</label>
-		</div>
-		<div class="field half">
-			<input type="radio" id="demo-priority-high" name="demo-priority">
-			<label for="demo-priority-high">High</label>
-		</div>
-		<div class="field half first">
-			<input type="checkbox" id="demo-copy" name="demo-copy">
-			<label for="demo-copy">Email me a copy</label>
-		</div>
-		<div class="field half">
-			<input type="checkbox" id="demo-human" name="demo-human" checked>
-			<label for="demo-human">Not a robot</label>
-		</div>
-		<div class="field">
-			<label for="demo-message">Message</label>
-			<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
-		</div>
+        <div class="fields">
+            <div class="field half first">
+                <label for="demo-name">Name</label>
+                <input type="text" name="demo-name" id="demo-name" value="" placeholder="Jane Doe" />
+            </div>
+            <div class="field half">
+                <label for="demo-email">Email</label>
+                <input type="email" name="demo-email" id="demo-email" value="" placeholder="jane@untitled.tld" />
+            </div>
+            <div class="field">
+                <label for="demo-category">Category</label>
+                <div class="select-wrapper">
+                    <select name="demo-category" id="demo-category">
+                        <option value="">-</option>
+                        <option value="1">Manufacturing</option>
+                        <option value="1">Shipping</option>
+                        <option value="1">Administration</option>
+                        <option value="1">Human Resources</option>
+                    </select>
+                </div>
+            </div>
+            <div class="field half first">
+                <input type="radio" id="demo-priority-low" name="demo-priority" checked>
+                <label for="demo-priority-low">Low</label>
+            </div>
+            <div class="field half">
+                <input type="radio" id="demo-priority-high" name="demo-priority">
+                <label for="demo-priority-high">High</label>
+            </div>
+            <div class="field half first">
+                <input type="checkbox" id="demo-copy" name="demo-copy">
+                <label for="demo-copy">Email me a copy</label>
+            </div>
+            <div class="field half">
+                <input type="checkbox" id="demo-human" name="demo-human" checked>
+                <label for="demo-human">Not a robot</label>
+            </div>
+            <div class="field">
+                <label for="demo-message">Message</label>
+                <textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+            </div>
+        </div>
 		<ul class="actions">
 			<li><input type="submit" value="Send Message" class="special" /></li>
 			<li><input type="reset" value="Reset" /></li>
