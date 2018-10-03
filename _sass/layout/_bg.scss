@@ -60,9 +60,9 @@
 			}
 		}
 
-		body.is-loading & {
+		body.is-preload & {
 			&:before {
-				background-color:	_palette(bg-alt);
+				background-color: _palette(bg-alt);
 			}
 		}
 	}
