@@ -2,8 +2,8 @@
 title: Dimension
 email: youremailaddress@gmail.com
 description: A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<br />for free under the <a href="https://html5up.net/license">Creative Commons</a> license.
-baseurl: "/dimension.github.io" # the subpath of your site, e.g. /blog
-url: "https://gianguitar.github.io/" # the base hostname & protocol for your site
+baseurl: "/dimension-kekyll-theme" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
 author:
 street_address: 1234 Somewhere Road
 city: Nashville
