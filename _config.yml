@@ -1,16 +1,16 @@
 # Site settings
-title: Dimension
-email: youremailaddress@gmail.com
-description: A fully responsive site template designed by <a href="https://html5up.net">HTML5 UP</a> and released<br />for free under the <a href="https://html5up.net/license">Creative Commons</a> license.
+title: Gian Solo
+email: soundsbygian@gmail.com
+description: I drink way too much coffee and write about love, family and friendships.
 baseurl: "/dimension.github.io" # the subpath of your site, e.g. /blog
-url: "https://gianguitar.github.io" # the base hostname & protocol for your site
+url: "http://localhost:4000" # the base hostname & protocol for your site
 author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
+street_address: 
+city: 
+state:
+zip_code: 
+country: 
+phone: 
 
 icon: fa-diamond # Font Awesome class for your site's icon
 
