@@ -2,27 +2,7 @@
 title: contact
 ---
 
-<form action="https://formspree.io/{{ site.email }}" method="POST">
-	<div class="fields">
-		<div class="field half first">
-			<label for="name">Name</label>
-			<input type="text" name="name" id="name" />
-		</div>
-		<div class="field half">
-			<label for="email">Email</label>
-			<input type="text" name="_replyto" id="email" />
-		</div>
-		<div class="field">
-			<label for="message">Message</label>
-			<textarea name="message" id="message" rows="4"></textarea>
-		</div>
-	</div>
-	<ul class="actions">
-		<li><input type="submit" value="Send Message" class="primary" /></li>
-		<li><input type="reset" value="Reset" /></li>
-	</ul>
-</form>
-<ul class="icons">
+For all business related inquiries and general questions, please email soundsbygian@gmail.com.
 
 	{% if site.twitter_url %}
 				<li><a href="{{ site.twitter_url }}" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
