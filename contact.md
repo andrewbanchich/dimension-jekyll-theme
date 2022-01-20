@@ -5,7 +5,10 @@ title: contact
 For all business related inquiries and general questions, please email soundsbygian@gmail.com.
 
 <ul>
-	{% if site.twitter_url %}
+	            {% if site.instagram_url %}
+				<li><a href="{{ site.instagram_url }}" class="icon fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+				{% endif %}
+				{% if site.twitter_url %}
 				<li><a href="{{ site.twitter_url }}" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
 				{% endif %}
 				{% if site.googleplus_url %}
@@ -13,9 +16,6 @@ For all business related inquiries and general questions, please email soundsbyg
 				{% endif %}
 				{% if site.facebook_url %}
 				<li><a href="{{ site.facebook_url }}" class="icon fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
-				{% endif %}
-				{% if site.instagram_url %}
-				<li><a href="{{ site.instagram_url }}" class="icon fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
 				{% endif %}
 				{% if site.pinterest_url %}
 				<li><a href="{{ site.pinterest_url }}" class="icon fa-pinterest" target="_blank"><span class="label">Pinterest</span></a></li>
