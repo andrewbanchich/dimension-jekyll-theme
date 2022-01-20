@@ -1,5 +1,5 @@
 # Site settings
-title: Gian Solo
+title: Gian Solo 
 email: soundsbygian@gmail.com
 description: I drink way too much coffee and write about love, family and friendships.
 baseurl: "/dimension.github.io" # the subpath of your site, e.g. /blog
@@ -17,13 +17,13 @@ icon: fa-diamond # Font Awesome class for your site's icon
 # Social settings
 facebook_url:
 github_url:
-gitlab_url: https://gitlab.com/u/andrewbanchich
-googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
-instagram_url:
-linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+gitlab_url: 
+googleplus_url: 
+instagram_url: https://www.instagram.com/gian_solo/?hl=en
+linkedin_url: 
 pinterest_url:
 slack_url:
-twitter_url: https://twitter.com/andrewbanchich
+twitter_url: https://twitter.com/gian_solo
 
 # Build settings
 markdown: kramdown
