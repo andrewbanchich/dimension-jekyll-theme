@@ -4,6 +4,7 @@ title: contact
 
 For all business related inquiries and general questions, please email soundsbygian@gmail.com.
 
+<ul>
 	{% if site.twitter_url %}
 				<li><a href="{{ site.twitter_url }}" class="icon fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
 				{% endif %}
