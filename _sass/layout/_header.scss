@@ -119,6 +119,7 @@
 						letter-spacing: _font(letter-spacing);
 						font-size: 0.8rem;
 						border-bottom: 0;
+						text-decoration: none;
 
 						&:hover {
 							background-color: _palette(border-bg);
