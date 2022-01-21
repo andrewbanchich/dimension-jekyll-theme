@@ -1,7 +1,7 @@
 # Site settings
 title: Gian Solo 
 email: soundsbygian@gmail.com
-description: I drink way too much coffee and write about love and heartbreak.
+description: I drink way too much coffee and write songs about love and heartbreak.
 baseurl: "/dimension.github.io" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 author:
