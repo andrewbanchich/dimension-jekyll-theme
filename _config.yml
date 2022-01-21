@@ -12,7 +12,7 @@ zip_code:
 country: 
 phone: 
 
-icon: fa-diamond # Font Awesome class for your site's icon
+icon: <img src="...assets/images/GSlogo.png">
 
 # Social settings
 facebook_url:
