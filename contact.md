@@ -2,7 +2,7 @@
 title: contact
 ---
 
-For all business related inquiries and general questions, please email soundsbygian@gmail.com.
+For all business related inquiries and general questions, please email <b><a href="mailto: soundsbygian@gmail.com">soundsbygian@gmail.com</a></b>.
 
 <ul>
 	            {% if site.instagram_url %}
