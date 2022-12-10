@@ -1,0 +1,28 @@
+<!-- Wrapper -->
+<div id="wrapper">
+
+	<!-- Header -->
+		<header id="header">
+			<div class="logo">
+				<span class="icon {{ site.icon }}"></span>
+			</div>
+			<div class="content">
+				<div class="inner">
+					<h1>{{ site.title }}</h1>
+					<p>{{ site.description }}</p>
+				</div>
+			</div>
+			<nav>
+				<ul>
+					{% for page in site.pages  %}
+					{% if page.title %}
+					<!-- page.path is: {{ page.path }} -->
+					<li><a href="#{{ page.title }}">{{ page.title }}</a></li>
+					{% endif %}
+					{% endfor %}
+				</ul>
+			</nav>
+		</header>
+
+	<!-- Main -->
+		<div id="main">

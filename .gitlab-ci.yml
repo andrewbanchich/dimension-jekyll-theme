@@ -1,0 +1,14 @@
+image: ruby
+
+pages:
+  stage: build
+  script:
+  - gem install jekyll
+  - jekyll build -d public
+  - gem build dimension_jekyll_theme.gemspec
+  artifacts:
+    paths:
+    - public
+    - "dimension_jekyll_theme-*.gem"
+  only:
+  - master
